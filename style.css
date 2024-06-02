@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: arial;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height:596px;
+    width:350px;
+    background-color: #15263F;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.img{
+    height: 302px;
+    width: 302px;
+    background-image: url(image-equilibrium.jpg);
+    border-radius: 10px;
+}
+.heading{
+    color: white;
+    display: flex;
+    width: 302px;
+    font-size: 1.3rem;
+    height:28px;
+}
+.para{
+    color: #8BACD9;
+    line-height: 1.6rem;
+    width: 302px;
+}
+.price-section{
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00fff8;
+    width: 100px;
+}
+.icon2{
+    display: flex;
+    justify-content: space-between;
+    color:#15263F;
+    width: 99px;
+
+}
+.profile{
+    height: 33px;
+    width: 302px;
+}
+.prof{
+    height: 33px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ava{
+    height:33px ;
+    width: 33px;
+    background-image: url(image-avatar.png);
+    background-size: cover;
+}
+.name{
+    color: #8BACD9;
+    span{
+    color: #8BACD9;
+    }
+}
+.line{
+    height: 1px;
+    width: 302px;
+    background-color: #8BACD9;
+}
+.heading:hover{
+    color:#00FFF8;
+}
+.name:hover{
+    
+     span{ 
+        color: #00FFF8;
+    } 
+}
+.icon2:hover{
+    color:#8BACD9
+}
+.img:hover{
+  
+}
